@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+            <bean id="SqlSessionFactorCreator" class="ioc.SqlSessionFactorCreator">
+                    <property name="prop">
+                        <props>
+                            <prop key="url">url</prop>
+                            <prop key="name">name</prop>
+                            <prop key="pwd">pwd</prop>
+                            <prop key="driver">driver</prop>
+                        </props>
+                    </property>
+            </bean>
+
+
+<!--        <bean id="userDao" class="complex.UserDaoImpl"/>-->
+<!--     <bean id="userService" class="complex.UserServiceImpl">-->
+
+<!--         <constructor-arg ref="userDao"/>-->
+<!--     </bean>-->
+
+<!--    set方法的注入(属性注入）-->
+    <bean id="userDao" class="complex.UserDaoImpl"/>
+    <bean id="userService" class="complex.UserServiceImpl">
+        <property name="dao" ref="userDao" />
+    </bean>
+</beans>

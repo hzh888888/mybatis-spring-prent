@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch23-mvc-static" />
+        <module name="cho25-mvc-lanjieqi" />
+        <module name="ch15-code-container-ioc-aop-tx" />
+        <module name="ch21-mvc-validation" />
+        <module name="employee-dao" />
+        <module name="ch33-servlet" />
+        <module name="cho13-spring-tx" />
+        <module name="ch02-spring-ioc" />
+        <module name="employee-service" />
+        <module name="ch09-spring-aop-advice" />
+        <module name="ch12-spring-tx" />
+        <module name="employee-web" />
+        <module name="ch22-mvc-view" />
+        <module name="ch27-mvc-file" />
+        <module name="ch28-mvc-zhonghe" />
+        <module name="ch19-mvc-request-mapping" />
+        <module name="ch20-mvc-receive-data" />
+        <module name="ch08-spring-aop" />
+        <module name="ch06-spring-mybatis-druid" />
+        <module name="cho29-ssm-zhenghe-parent" />
+        <module name="ch14-annotation-tx" />
+        <module name="ch13-annotation-container-ioc-aop" />
+        <module name="ch10-spring-aop-pointcut" />
+        <module name="mybatis-spring-zhonghe" />
+        <module name="ch34-mvc-code" />
+        <module name="cho3-spring-autowire" />
+        <module name="ch30-ssm-zhenghe" />
+        <module name="employee-entity" />
+        <module name="cho12-spring-shanchu" />
+        <module name="ch17-mvc-helloworld" />
+        <module name="ch16-code-mybatis" />
+        <module name="ch35-mvc-ssm-code" />
+        <module name="mybatis-spring-dao" />
+        <module name="ch32-ssm-zhenghe" />
+        <module name="017-mvc-helloword1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

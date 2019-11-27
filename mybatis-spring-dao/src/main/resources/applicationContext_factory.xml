@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd"
+      default-init-method="init" default-destroy-method="destroy">
+
+<!--    <bean id="factory" class="com.factory.AFactory" factory-method="createA">-->
+
+<!--    </bean>-->
+
+
+
+    <bean id="factory" class="com.factory.AFactory" />
+    <bean id="factory2" factory-bean="factory" factory-method="createB"  lazy-init="false"/>
+
+
+<!--    <bean id="factory3" class="com.factory.MyFactoryBean">-->
+<!--    </bean>-->
+</beans>

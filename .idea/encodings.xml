@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/017-mvc-helloword1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch02-spring-ioc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-spring-mybatis-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08-spring-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09-spring-aop-advice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch10-spring-aop-pointcut" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12-spring-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch13-annotation-container-ioc-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14-annotation-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch15-code-container-ioc-aop-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch16-code-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch17-mvc-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch19-mvc-request-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch20-mvc-receive-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch21-mvc-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch22-mvc-view" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch23-mvc-static" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch27-mvc-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch28-mvc-zhonghe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch30-ssm-zhenghe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-ssm-zhenghe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-ssm-zhenghe/employee-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-ssm-zhenghe/employee-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-ssm-zhenghe/employee-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-ssm-zhenghe/employee-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch32-ssm-zhenghe" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch33-servlet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch34-mvc-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch35-mvc-ssm-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cho12-spring-shanchu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cho13-spring-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cho25-mvc-lanjieqi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cho29-ssm-zhenghe-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cho3-spring-autowire" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-zhonghe" charset="UTF-8" />
+  </component>
+</project>

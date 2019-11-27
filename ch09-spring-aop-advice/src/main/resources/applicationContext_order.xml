@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="log1" class="com.LogImpl"/>
+    <bean id="log2" class="com.LogImpl2"/>
+
+    <bean id="employeeserivce" class="com.EmployeeSerivceImpl"/>
+
+    <aop:config>
+        <aop:pointcut id="myPointcut" expression="execution(* com.EmployeeSerivceImpl.*(..))"/>
+        <aop:aspect ref="log1" order="4">
+            <aop:around method="aroundAdvice2" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+
+        <aop:aspect ref="log1" order="3">
+<!--            <aop:before method="befor" pointcut-ref="myPointcut"></aop:before>-->
+<!--            <aop:before method="befor2" pointcut-ref="myPointcut"></aop:before>-->
+           <aop:around method="aroundAdvice" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+
+
+
+
+    </aop:config>
+
+
+
+</beans>
