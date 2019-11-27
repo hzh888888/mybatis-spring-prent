@@ -25,7 +25,7 @@ public class HelloWord {
 //    public String index3(){
 //        return "index3";
 //    }
-
+//请
     @GetMapping("/get")
     public String get(){
         return "index";
